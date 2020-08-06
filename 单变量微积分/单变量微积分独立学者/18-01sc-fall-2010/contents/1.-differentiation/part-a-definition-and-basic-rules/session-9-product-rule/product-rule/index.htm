@@ -1,0 +1,979 @@
+<!DOCTYPE html><html lang="en">
+      
+      
+        
+    
+    
+    
+    
+
+      
+      
+      <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">  
+        
+        <title>Product Rule | Session 9: Product Rule | Part A: Definition and Basic Rules | 1. Differentiation | Single Variable Calculus | Mathematics | MIT OpenCourseWare</title>
+    <!-- Begin Automatic Metadata Insertion -->
+    <meta content="18-01sc-single-variable-calculus-fall-2010" name="WT.cg_n">
+    <meta content="Product Rule" name="WT.cg_s">
+    <meta content="" name="Description">
+    <meta content="Jerison, David" name="Author">
+    <meta content="18.01SC,18.01,differentiation of functions,integration of functions,limits,continuity,differentiation rules,extremum problems,definite integration,indefinite integration,fundamental theorem of calculus,techniques of integration,approximation of definite integrals,improper integrals,l'Hôpital's rule,Calculus,Differential Equations" name="keywords">
+    <meta content="18.01SC Single Variable Calculus | Product Rule" name="Search_Display">
+    <meta content="Calculus" itemprop="about">
+    <meta content="Differential Equations" itemprop="about">
+    <!-- End Automatic Metadata Insertion -->
+
+	<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/grid.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/base.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/menu.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/jquery.bubblepopup.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/search.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/courses.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/courses_new.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/jquery.jscrollpane.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/media_tabs.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../../common/styles/scholar2.css">
+	<link href="../../../../../common/xml/ocwcc.rdf" type="application/rdf+xml" rel="metadata">
+	<link rel="canonical" href="https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/1.-differentiation/part-a-definition-and-basic-rules/session-9-product-rule/product-rule/">
+	<link rel="apple-touch-icon" href="../../../../../common/images/apple-touch-icon.png">
+	
+	
+      
+	
+	<script type="text/javascript" src="../../../../../common/scripts/jquery.js"></script>
+	<script type="text/javascript" src="../../../../../common/scripts/ocw-media-utils-offline.js"></script>
+	<script type="text/javascript" src="../../../../../common/scripts/ocw-offline.js"></script>
+	<script type="text/javascript" src="../../../../../common/scripts/jquery.bubblepopup.min.js"></script>
+	<script type="text/javascript" src="../../../../../common/scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../../../../../common/scripts/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="../../../../../common/scripts/expandy.js"></script>
+	<script type="text/javascript" src="../../../../../common/scripts/bubble-popup-offline.js"></script>
+	
+	
+	
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#tabs").tabs();
+        IpadScroller();
+      });
+    </script>
+    
+    
+    
+    
+    
+    
+      
+       
+		 
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </head>
+    <body itemscope itemtype="http://schema.org/WebPage">
+        
+	
+
+        <header id="top">
+			<div id="grid">
+				
+				
+					
+<div id="portletwrapper-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d686561646572" class="portletWrapper kssattr-portlethash-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d686561646572">
+<div class="portletStaticText portlet-static-site-header">
+<!--googleoff: index-->
+<div class="grid_6 alpha" id="banner"><a href="https://ocw.mit.edu/"><img src="../../../../../common/images/ocw_mast.png" class="logo" alt="MIT OpenCourseWare, Massachusetts Institute of Technology"></a></div>
+<div class="grid_6 omega" id="subscribe">
+<aside class="module" aria-label="Connect with OCW">
+<table class="social">
+    <tbody>
+        <tr>
+            <td class="socialbutton"><a aria-label="Subscribe to the OCW Newsletter" href="https://ocw.mit.edu/subscribe/index.htm?utm_source=header"><img src="../../../../../common/images/trans.gif" alt="An icon depicting an envelope.">Subscribe to the OCW Newsletter</a></td>
+            <td>
+<a aria-label="Facebook" href="https://facebook.com/mitocw"><img src="../../../../../common/images/icon_fb.png" alt="Click to visit our Facebook page."></a>  <a aria-label="Instagram" href="https://www.instagram.com/mitocw/"><img src="https://ocw.mit.edu/images/icon_ig.png" alt="Click to visit our Instagram page."></a> <a aria-label="Twitter" href="https://twitter.com/mitocw"><img src="https://ocw.mit.edu/images/icon_twitter.png" alt="Click to visit our Twitter feed."></a><a aria-label="YouTube" href="https://www.youtube.com/mitocw" style="font-size: 12.208px;"><img src="https://ocw.mit.edu/images/icon_yt.png" alt="Click to visit our YouTube page."></a><span style="font-size: 12.208px;">   </span><a aria-label="Open Matters blog on WordPress" href="https://www.ocw-openmatters.org/" style="font-size: 12.208px;"><img src="https://ocw.mit.edu/images/icon_wp.png" alt="Click to visit our blog on WordPress."></a>
+</td>
+        </tr>
+    </tbody>
+</table>
+</aside><nav aria-label="Help Links" class="helplinks">     <a aria-label="OCW Site Help" href="https://ocw.mit.edu/help">Help</a><span aria-hidden="true">|</span>     <a href="../../../../../common/about/contactus.htm">Contact Us</a>   </nav>
+</div>
+<div class="clear"> </div>
+<!--googleon: index-->
+</div>
+
+</div>
+
+<div id="portletwrapper-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a6d6567612d6d656e75" class="portletWrapper kssattr-portlethash-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a6d6567612d6d656e75">
+<div class="portletStaticText portlet-static-mega-menu"><div><nav id="mega" class="grid_8 alpha" aria-label="Site">
+<ul id="menu" role="presentation">
+    <li id="menu_home">
+<a href="https://ocw.mit.edu/" aria-label="Homepage"><img src="../../../../../common/images/top-nav_home.png" class="home_icon" alt="Click for site home page."></a><!-- Begin Home Item -->
+</li>
+    <!-- End Home Item -->
+    <li id="drop_1" aria-label="Find Courses">
+<a href="#" aria-hidden="true">FIND COURSES</a><!-- Begin 5 columns Item -->
+    <div class="dropdown_5columns-a mega-courses">
+    <div class="col_1a">
+    <div class="row_1a">
+<nav aria-labelledby="mm-find-courses-by">     <span id="mm-find-courses-by" class="nav" aria-hidden="true">Find courses by:</span>
+    <ul class="find_by" role="presentation">
+        <li><a href="https://ocw.mit.edu/courses/find-by-topic/">Topic</a></li>
+        <li><a href="https://ocw.mit.edu/courses/find-by-number/">MIT Course Number</a></li>
+        <li><a href="https://ocw.mit.edu/courses/find-by-department/">Department</a></li>
+    </ul>
+    </nav>     <nav aria-labelledby="mm-collections">     <span id="mm-collections" class="nav" aria-hidden="true">Collections</span>
+    <ul role="presentation">
+        <li><a href="https://ocw.mit.edu/courses/new-courses/">New Courses</a></li>
+        <li><a href="https://ocw.mit.edu/courses/most-visited-courses/">Most Visited Courses</a></li>
+        <li><a href="https://ocw.mit.edu/courses/ocw-scholar/">OCW Scholar Courses</a></li>
+        <li><a href="https://ocw.mit.edu/courses/audio-video-courses/">Audio/Video Lectures</a></li>
+        <li><a href="https://ocw.mit.edu/courses/online-textbooks/">Online Textbooks</a></li>
+        <li><a href="https://ocw.mit.edu/resources/">Supplemental Resources</a></li>
+        <li><a href="https://ocw.mit.edu/high-school/">OCW Highlights for High School</a></li>
+        <li><a href="https://ocw.mit.edu/courses/mitx-related-courseware/">MITx &amp; Related OCW Courses</a></li>
+        <li><a href="https://ocw.mit.edu/courses/mit-open-learning-library/">MIT Open Learning Library</a></li>
+    </ul>
+    </nav>     <nav class="col_1b" aria-labelledby="mm-translated-courses">     <span id="mm-translated-courses" class="nav" aria-hidden="true" style="line-height: 1.3;">Cross-Disciplinary Topic Lists</span>
+    <ul role="presentation">
+        <li><a href="https://ocw.mit.edu/courses/energy-courses">Energy</a></li>
+        <li><a href="https://ocw.mit.edu/courses/entrepreneurship">Entrepreneurship</a></li>
+        <li><a href="https://ocw.mit.edu/courses/environment-courses">Environment</a></li>
+        <li><a href="https://ocw.mit.edu/courses/intro-programming">Introductory Programming</a></li>
+        <li><a href="https://ocw.mit.edu/courses/life-sciences">Life Sciences</a></li>
+        <li><a href="https://ocw.mit.edu/courses/transportation-courses">Transportation</a></li>
+    </ul>
+    </nav>
+</div>
+    <div class="row_1b"><nav aria-labelledby="mm-cross-disciplinary-topic-lists">     <span id="mm-cross-disciplinary-topic-lists" class="nav" aria-hidden="true">Translated Courses</span>
+    <ul role="presentation">
+        <li><a href="https://ocw.mit.edu/courses/translated-courses/traditional-chinese" aria-label="Traditional Chinese">繁體字 / Traditional Chinese</a></li>
+        <li><a href="https://ocw.mit.edu/courses/translated-courses/turkish" aria-label="Turkish">Türkçe / Turkish</a></li>
+        <li><a href="https://ocw.mit.edu/courses/translated-courses/korean" aria-label="Korean">(비디오)한국 / Korean</a></li>
+    </ul>
+    </nav></div>
+    </div>
+    </div>
+    </li>
+    <li id="drop_2">
+<a href="#" aria-label="For Educators">For Educators</a>
+    <div class="dropdown_1column-a" style="width: 270px;"><nav aria-labelledby="mm-find-courses-by">
+    <ul role="presentation">
+        <li><a href="https://ocw.mit.edu/educator/chalk-radio-podcast">Chalk Radio Podcast</a></li>
+        <li><a href="https://ocw.mit.edu/educator/">OCW Educator Portal</a></li>
+    </ul>
+    <ul role="presentation">
+        <li><a href="https://ocw.mit.edu/courses/instructor-insights/">Instructor Insights by Department</a></li>
+        <li><a href="https://openlearning.mit.edu/campus/digital-innovations/">Residential Digital Innovations </a></li>
+    </ul>
+    <ul role="presentation">
+        <li><a href="https://ocw.mit.edu/high-school/">OCW Highlights for High School</a></li>
+    </ul>
+    <ul role="presentation">
+        <li><a href="https://ocw.mit.edu/educator/additional-resources/">Additional Resources</a></li>
+    </ul>
+    </nav></div>
+    </li>
+    <li id="drop_3">
+<a href="#" aria-hidden="true">Give Now</a>
+    <div class="dropdown_1column-a"><nav class="col_1" aria-label="Donate">
+    <ul role="presentation">
+        <li><a href="https://ocw.mit.edu/give/">Make a Donation</a></li>
+        <li><a href="https://ocw.mit.edu/give/why-give/">Why Give?</a></li>
+        <li><a href="https://ocw.mit.edu/give/our-supporters/">Our Supporters</a></li>
+        <li><a href="https://ocw.mit.edu/give/other-ways-to-contribute/">Other Ways to Contribute</a></li>
+        <li><a href="https://ocw.mit.edu/support/">Become a Corporate Sponsor</a></li>
+    </ul>
+    </nav></div>
+    </li>
+    <li id="drop_4">
+<a href="#" aria-hidden="true">About</a>
+    <div class="dropdown_1column-a"><nav class="col_1" aria-label="About">
+    <ul role="presentation">
+        <li><a href="https://ocw.mit.edu/about/">About MIT OpenCourseWare</a></li>
+        <li><a href="https://ocw.mit.edu/about/site-statistics/">Site Statistics</a></li>
+        <li><a href="https://ocw.mit.edu/about/ocw-stories/">OCW Stories</a></li>
+        <li><a href="https://ocw.mit.edu/about/newsletter/">Newsletter</a></li>
+        <li><a href="https://chalk-radio.simplecast.com/">Chalk Radio Podcast</a></li>
+        <li><a href="https://www.ocw-openmatters.org/">Open Matters Blog</a></li>
+    </ul>
+    </nav></div>
+    </li>
+</ul>
+</nav></div></div>
+
+</div>
+
+
+
+
+
+<!--googleoff: index-->
+<script>
+  (function() {
+	var cx = '012626166551961672889:owjdpuboktq';
+	var gcse = document.createElement('script');
+	gcse.type = 'text/javascript';
+	gcse.async = true;
+	gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(gcse, s);
+  })();
+  window.onload = function(){
+	document.getElementById('gsc-i-id1').placeholder = 'Search';	
+  };
+
+$(document).ready(function(){
+
+$('.advanceSearch a').keydown(function(event){showSearchTips($(this),event);})
+$('#searchTipsModal').keydown(function(event){showSearchTips($(this),event);})
+
+function showSearchTips(obj,evt) {
+// if pressed enter key
+	if ( evt.which == 13 || evt.which == 32) {
+		showModal();
+		ga('send', 'pageview', "AdvanceSearch");
+		$(".advanceSearch a").attr('aria-expanded', 'true');
+		$('.searchTipsModal').focus();
+		evt.preventDefault();
+		}
+	if ( evt.which == 27 ) {
+		hideModal();
+		$(".advanceSearch a").attr('aria-expanded', 'false');
+		var modal = document.getElementById('searchTipsModal');
+		modal.style.display = "none";
+		$(".advanceSearch a").focus();
+		evt.preventDefault();
+		}
+}
+
+});
+function showModal(){
+	var modal = document.getElementById('searchTipsModal');
+	modal.style.display = "block";
+	ga('send', 'pageview', "AdvanceSearch");
+	document.getElementById("searchTipsBtn").setAttribute("aria-expanded", true);
+	window.setTimeout(function () {
+    document.getElementById('searchTipsModal').focus(); }, 0);
+}
+
+function hideModal(){
+	var modal = document.getElementById('searchTipsModal');
+	modal.style.display = "none";
+	document.getElementById("searchTipsBtn").setAttribute("aria-expanded", false);
+}
+</script>
+<div id="search" role="search" class="grid_4 omega">
+    	<table class="search">
+				<tbody>
+					<tr>
+						<td><div class="searchboxheader"><searchbox-only resultsurl="/search/ocwsearch.htm"></searchbox-only></div></td>
+						<td>
+							<div class="advanceSearch">
+								<a id="searchTipsBtn" onclick="showModal();" href="#" role="button" aria-label="search tips" aria-expanded="false" aria-describedby="searchtips">Search Tips</a>
+
+								<!-- The Modal -->
+								<div id="searchTipsModal" class="modal" tabindex="-1">
+								  <!-- Modal content -->
+									<div class="modal-content">
+										<div class="modal-body">
+											<button class="close" onclick="hideModal();" aria-label="close">X</button>
+											<span>
+												<b>Exclude words from your search</b>
+												<br>Put - in front of a word you want to leave out. For example, jaguar speed -car
+												<br><br>
+												<b>Search for an exact match</b>
+												<br>Put a word or phrase inside quotes. For example, "tallest building".
+												<br><br>
+												<b>Search for wildcards or unknown words</b>
+												<br>Put a * in your word or phrase where you want to leave a placeholder. For example, "largest * in the world".
+												<br><br>
+												<b>Search within a range of numbers</b>
+												<br>Put .. between two numbers. For example, camera $50..$100.
+												<br><br>
+												<b>Combine searches</b>
+												<br>Put "OR" between each search query. For example,  marathon OR race.
+												<br><br>
+											</span>
+										</div>
+								  </div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+		</table>
+</div>
+<div class="clear"></div>
+<!--googleon: index-->
+<!-- *end header* -->
+
+				
+				
+			</div>
+<!-- top grid end -->
+		</header><!-- top end -->
+			
+		<div id="center_media">
+      	<div id="grid">
+      		<div id="left">
+        		<nav id="breadcrumb_media" aria-label="Breadcrumb">
+                	<p>
+
+    <a href="https://ocw.mit.edu/">Home</a>
+    
+        »
+        
+    
+    
+        
+            <a href="https://ocw.mit.edu/courses">Courses</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            <a href="https://ocw.mit.edu/courses/mathematics">Mathematics</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            <a href="../../../../../contents/index.htm">Single Variable Calculus</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            <a href="../../../../../contents/1.-differentiation/index.htm">1. Differentiation</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            <a href="../../../../../contents/1.-differentiation/part-a-definition-and-basic-rules/index.htm">Part A: Definition and Basic Rules</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            <a href="../../../../../contents/1.-differentiation/part-a-definition-and-basic-rules/session-9-product-rule/index.htm">Session 9: Product Rule</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            
+            
+            Product Rule
+         
+    
+</p>
+
+            	</nav>
+            	<div class="clear"></div>
+        		<div id="media_title">
+        		<h1 class="title" itemprop="name" property="dct:title">
+        <span class="" id="parent-fieldname-title">
+            Product Rule
+        </span>
+    </h1>
+        		</div>
+           		<div class="clear"></div>
+           		<div id="course_wrapper_media">
+           			<nav id="course_nav" aria-label="Course">
+           				<script language="javascript" type="text/javascript">
+function toggleMenu(objID) {
+  if (!document.getElementById) return;
+  var ob = document.getElementById(objID);
+  ob.className = (ob.className == 'selected')?'': 'selected';
+}
+function toggleClass(id)
+{
+  var divtoggleClass= document.getElementById(id);
+  divtoggleClass.className = (divtoggleClass.className == 'mO')?'mC': 'mO';
+  return false;
+}
+function changeAlt(id)
+{
+  id.alt = (id.alt == 'Expand Menu')?'Collapse Menu' : 'Expand Menu';
+  id.title = (id.title == 'Expand Menu')?'Collapse Menu' : 'Expand Menu';
+}
+</script>
+<!--Left Nav Starts -->
+
+
+	<ul>			  
+	
+	    	
+	    	    <li class="">
+			   			<a href="../../../../../contents/index.htm">
+		                  Course Home  			                
+	                    </a>
+		        </li>
+		    
+         	
+	
+	
+	    	
+	    	    <li class="">
+			   			<a href="../../../../../contents/syllabus/index.htm">
+		                  Syllabus  			                
+	                    </a>
+		        </li>
+		    
+         	
+	
+	
+	    	
+         	<li class="">
+       		<div class="tlp_links">
+	        	<div id="1.-differentiation" class="mC">
+						<a href="#" class="" onclick="toggleMenu('menu1.-differentiation'); toggleClass('1.-differentiation'); return false">
+		                  <img src="../../../../../common/images/trans.gif" class="expandCollapseTrans" border="0" width="10" height="12" onclick="changeAlt(this)" alt="Collapse Menu" title="Collapse Menu">
+		                </a>
+		                <a href="../../../../../contents/1.-differentiation/index.htm" class="">
+		                  1. Differentiation  			                
+	                    </a>
+	                 			                
+	            </div>
+			    
+	        	<ul id="menu1.-differentiation" class="selected">
+					               
+		            <li class="selected">
+				 		<a href="../../../../../contents/1.-differentiation/part-a-definition-and-basic-rules/index.htm" class="selected">Part A: Definition and Basic Rules</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/1.-differentiation/part-b-implicit-differentiation-and-inverse-functions/index.htm" class="">Part B: Implicit Differentiation and Inverse Functions</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/1.-differentiation/exam-1/index.htm" class="">Exam 1</a>
+		            </li>
+			    </ul>
+			    
+			</div>
+			</li>
+	
+	
+	    	
+         	<li class="">
+       		<div class="tlp_links">
+	        	<div id="unit-2-applications-of-differentiation" class="mO">
+						<a href="#" class="" onclick="toggleMenu('menuunit-2-applications-of-differentiation'); toggleClass('unit-2-applications-of-differentiation'); return false">
+		                  <img src="../../../../../common/images/trans.gif" class="expandCollapseTrans" border="0" width="10" height="12" onclick="changeAlt(this)" alt="Expand Menu" title="Expand Menu">
+		                </a>
+		                <a href="../../../../../contents/unit-2-applications-of-differentiation/index.htm" class="">
+		                  2. Applications of Differentiation  			                
+	                    </a>
+	                 			                
+	            </div>
+			    
+	        	<ul id="menuunit-2-applications-of-differentiation" class="">
+					               
+		            <li class="">
+				 		<a href="../../../../../contents/unit-2-applications-of-differentiation/part-a-approximation-and-curve-sketching/index.htm" class="">Part A: Approximation and Curve Sketching</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-2-applications-of-differentiation/part-b-optimization-related-rates-and-newtons-method/index.htm" class="">Part B: Optimization, Related Rates and Newton's Method</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-2-applications-of-differentiation/part-c-mean-value-theorem-antiderivatives-and-differential-equations/index.htm" class="">Part C: Mean Value Theorem, Antiderivatives and Differential Equa</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-2-applications-of-differentiation/exam-2/index.htm" class="">Exam 2</a>
+		            </li>
+			    </ul>
+			    
+			</div>
+			</li>
+	
+	
+	    	
+         	<li class="">
+       		<div class="tlp_links">
+	        	<div id="unit-3-the-definite-integral-and-its-applications" class="mO">
+						<a href="#" class="" onclick="toggleMenu('menuunit-3-the-definite-integral-and-its-applications'); toggleClass('unit-3-the-definite-integral-and-its-applications'); return false">
+		                  <img src="../../../../../common/images/trans.gif" class="expandCollapseTrans" border="0" width="10" height="12" onclick="changeAlt(this)" alt="Expand Menu" title="Expand Menu">
+		                </a>
+		                <a href="../../../../../contents/unit-3-the-definite-integral-and-its-applications/index.htm" class="">
+		                  3. The Definite Integral and its Applications  			                
+	                    </a>
+	                 			                
+	            </div>
+			    
+	        	<ul id="menuunit-3-the-definite-integral-and-its-applications" class="">
+					               
+		            <li class="">
+				 		<a href="../../../../../contents/unit-3-the-definite-integral-and-its-applications/part-a-definition-of-the-definite-integral-and-first-fundamental-theorem/index.htm" class="">Part A: Definition of the Definite Integral and First Fundamental</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-3-the-definite-integral-and-its-applications/part-b-second-fundamental-theorem-areas-volumes/index.htm" class="">Part B: Second Fundamental Theorem, Areas, Volumes</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-3-the-definite-integral-and-its-applications/part-c-average-value-probability-and-numerical-integration/index.htm" class="">Part C: Average Value, Probability and Numerical Integration</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-3-the-definite-integral-and-its-applications/exam-3/index.htm" class="">Exam 3</a>
+		            </li>
+			    </ul>
+			    
+			</div>
+			</li>
+	
+	
+	    	
+         	<li class="">
+       		<div class="tlp_links">
+	        	<div id="unit-4-techniques-of-integration" class="mO">
+						<a href="#" class="" onclick="toggleMenu('menuunit-4-techniques-of-integration'); toggleClass('unit-4-techniques-of-integration'); return false">
+		                  <img src="../../../../../common/images/trans.gif" class="expandCollapseTrans" border="0" width="10" height="12" onclick="changeAlt(this)" alt="Expand Menu" title="Expand Menu">
+		                </a>
+		                <a href="../../../../../contents/unit-4-techniques-of-integration/index.htm" class="">
+		                  4. Techniques of Integration  			                
+	                    </a>
+	                 			                
+	            </div>
+			    
+	        	<ul id="menuunit-4-techniques-of-integration" class="">
+					               
+		            <li class="">
+				 		<a href="../../../../../contents/unit-4-techniques-of-integration/part-a-trigonometric-powers-trigonometric-substitution-and-completing-the-square/index.htm" class="">Part A: Trigonometric Powers,  Trigonometric Substitution and Com</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-4-techniques-of-integration/part-b-partial-fractions-integration-by-parts-arc-length-and-surface-area/index.htm" class="">Part B: Partial Fractions, Integration by Parts, Arc Length, and </a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-4-techniques-of-integration/part-c-parametric-equations-and-polar-coordinates/index.htm" class="">Part C: Parametric Equations and Polar Coordinates</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-4-techniques-of-integration/exam-4/index.htm" class="">Exam 4</a>
+		            </li>
+			    </ul>
+			    
+			</div>
+			</li>
+	
+	
+	    	
+         	<li class="">
+       		<div class="tlp_links">
+	        	<div id="unit-5-exploring-the-infinite" class="mO">
+						<a href="#" class="" onclick="toggleMenu('menuunit-5-exploring-the-infinite'); toggleClass('unit-5-exploring-the-infinite'); return false">
+		                  <img src="../../../../../common/images/trans.gif" class="expandCollapseTrans" border="0" width="10" height="12" onclick="changeAlt(this)" alt="Expand Menu" title="Expand Menu">
+		                </a>
+		                <a href="../../../../../contents/unit-5-exploring-the-infinite/index.htm" class="">
+		                  5. Exploring the Infinite  			                
+	                    </a>
+	                 			                
+	            </div>
+			    
+	        	<ul id="menuunit-5-exploring-the-infinite" class="">
+					               
+		            <li class="">
+				 		<a href="../../../../../contents/unit-5-exploring-the-infinite/part-a-lhospitals-rule-and-improper-integrals/index.htm" class="">Part A: L'Hospital's Rule and Improper Integrals</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../../contents/unit-5-exploring-the-infinite/part-b-taylor-series/index.htm" class="">Part B: Taylor Series</a>
+		            </li>
+			    </ul>
+			    
+			</div>
+			</li>
+	
+	
+	    	
+	    	    <li class="">
+			   			<a href="../../../../../contents/final-exam/index.htm">
+		                  Final Exam  			                
+	                    </a>
+		        </li>
+		    
+         	
+	
+	
+	    	
+	    	    
+		    
+         	
+	<!--second tal block close-->  
+	
+</ul>
+
+
+<!--Left Nav Ends -->
+
+
+
+
+
+           			</nav>
+           			<main id="course_inner_media" aria-labelledby="media_title">
+           				 <p><img src="../../../../../common/images/scholar_bar_chp.png" style="width: 543px; height: 32px; border: 1px solid #790835; margin-top: -16px;" alt="OCW Scholar"></p>
+      					 
+        <div class="" id="parent-fieldname-text">
+            
+            
+        </div>
+    
+      					     
+    
+    
+
+
+
+<script type="text/javascript">var caption_embed_1 ={'English - US': '/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/1.-differentiation/part-a-definition-and-basic-rules/session-9-product-rule/product-rule/55ncRlBZstA.srt'}</script>     
+     <div id="media-embed">
+         <div class="attention_message" id="embed_1">
+<p>Flash and JavaScript are required for this feature.</p>
+<p>Download the video from <a href="http://itunes.apple.com/us/podcast/product-rule/id414308064?i=90318984">iTunes U</a> or the <a href="http://www.archive.org/download/MIT18_01SCF10/MIT18_01SCF10Rec_07_300k.mp4">Internet Archive</a>.</p>
+</div>
+     </div>
+    
+     <script type="text/javascript">ocw_embed_chapter_media('embed_1', 'https://www.youtube.com/v/55ncRlBZstA', 'youtube', '/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/1.-differentiation/part-a-definition-and-basic-rules/session-9-product-rule/product-rule', 'https://img.youtube.com/vi/55ncRlBZstA/0.jpg',0,0, 'https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/1.-differentiation/part-a-definition-and-basic-rules/session-9-product-rule/product-rule/55ncRlBZstA.srt')</script>
+	 
+	 
+	 		
+	 		<div id="transcript1"></div>
+				 <script type="text/javascript">createThreePlayParams(2, 21780, "embed_1", 0, 0)</script>
+			 
+	
+
+     
+ 
+
+
+<script type="text/javascript">
+		window.onload=function(){
+		init();
+		
+		}
+		var tabLinks = new Array();
+		var contentDivs = new Array();
+		function init() {
+		  // Grab the tab links and content divs from the page
+		  var tabListItems = document.getElementById('tabs').childNodes;
+		  for ( var i = 0; i < tabListItems.length; i++ ) {
+			if ( tabListItems[i].nodeName == "LI" ) {
+			  var tabLink = getFirstChildWithTagName( tabListItems[i], 'A' );
+			  var id = getHash( tabLink.getAttribute('href') );
+			  tabLinks[id] = tabLink;
+			  contentDivs[id] = document.getElementById( id );
+			}
+		  }
+		  // Assign onclick events to the tab links, and
+		  // highlight the first tab
+		  var i = 0;
+		  for ( var id in tabLinks ) {
+			tabLinks[id].onclick = showTab;
+			tabLinks[id].onfocus = function() { this.blur() };
+			if ( i == 0 ) tabLinks[id].className = 'selected';
+			i++;
+		  }
+		  // Hide all content divs except the first
+		  var i = 0;
+		  for ( var id in contentDivs ) {
+			if ( i != 0 ) contentDivs[id].className = 'tabContent hide';
+			i++;
+		  }
+		}
+		function showTab() {
+		  var selectedId = getHash( this.getAttribute('href') );
+		  // Highlight the selected tab, and dim all others.
+		  // Also show the selected content div, and hide all others.
+		  for ( var id in contentDivs ) {
+			if ( id == selectedId ) {
+			  tabLinks[id].className = 'selected';
+			  contentDivs[id].className = 'tabContent';
+			} else {
+			  tabLinks[id].className = '';
+			  contentDivs[id].className = 'tabContent hide';
+			}
+		  }
+		  // Stop the browser following the link
+		  return false;
+		}
+		function getFirstChildWithTagName( element, tagName ) {
+		  for ( var i = 0; i < element.childNodes.length; i++ ) {
+			if ( element.childNodes[i].nodeName == tagName ) return element.childNodes[i];
+		  }
+		}
+		function getHash( url ) {
+		  var hashPos = url.lastIndexOf ( '#' );
+		  return url.substring( hashPos + 1 );
+		}
+ </script>	
+ 
+
+  <div id="media_tabs">
+     
+        <ul id="tabs">
+            <li class="first">
+                <a href="#vid_about" class="selected">Transcript</a>
+            </li>
+            <li class="">
+                <a href="#vid_index" class="">Download this Video</a>
+            </li>
+        </ul>
+   
+        <div id="vid_about" itemprop="description" class="tabContent">
+<ul><li><a class="transcript-link" title="Open in a new window." alt="Open in a new window." style="text-decoration: none; font-size: 1.0em;" target="_blank" text-decoration: none font-size: href="../../../../../contents/1.-differentiation/part-a-definition-and-basic-rules/session-9-product-rule/product-rule/55ncRlBZstA.pdf"> Download English-US transcript (PDF)</a></li></ul>
+<p><span m="7320">CHRISTINE BREINER: Welcome</span> <span m="7720">back</span> <span m="7920">to</span> <span m="8000">recitation.</span> <span m="9840">In</span> <span m="10020">this</span> <span m="10380">segment,</span> <span m="10830">we're</span> <span m="10930">going</span> <span m="11130">to</span> <span m="11240">talk</span> <span m="11500">about</span> <span m="11840">the</span> <span m="11920">product</span> <span m="12320">rule</span> <span m="12500">for</span> <span m="12640">three</span> <span m="12880">functions</span> <span m="13700">and</span> <span m="13880">then</span> <span m="14010">we're</span> <span m="14100">going</span> <span m="14290">to</span> <span m="14390">do</span> <span m="14490">an</span> <span m="14580">example.</span> <span m="15710">And</span> <span m="16080">what</span> <span m="16260">I</span> <span m="16310">want</span> <span m="16490">to</span> <span m="16590">do</span> <span m="16680">first</span> <span m="17290">is</span> <span m="17540">remind</span> <span m="17920">you</span> <span m="18030">the</span> <span m="18310">product</span> <span m="18470">rule for</span> <span m="18740">two</span> <span m="18900">functions,</span> <span m="19440">because</span> <span m="19680">we're</span> <span m="19780">going</span> <span m="19990">to</span> <span m="20100">use</span> <span m="20380">that</span> <span m="20710">to</span> <span m="20820">figure</span> <span m="21110">out</span> <span m="21230">the</span> <span m="21310">product</span> <span m="21610">rule</span> <span m="21760">for</span> <span m="21910">three</span> <span m="22130">functions.</span></p>
+<p><span m="23040">So</span> <span m="23920">throughout</span> <span m="24540">this</span> <span m="25650">segment,</span> <span m="26110">we</span> <span m="26210">are</span> <span m="26330">going</span> <span m="26630">to</span> <span m="27240">assume</span> <span m="27670">that</span> <span m="27860">u</span> <span m="28250">and</span> <span m="28490">v</span> <span m="28800">and</span> <span m="28990">w</span> <span m="29490">are</span> <span m="29610">all</span> <span m="29830">functions</span> <span m="30420">of</span> <span m="30570">x.</span> <span m="31430">So</span> <span m="31640">I'm</span> <span m="31760">going</span> <span m="31970">to</span> <span m="32100">drop</span> <span m="32570">the</span> <span m="32770">of</span> <span m="32960">x</span> <span m="33420">just</span> <span m="33620">so</span> <span m="33730">it's</span> <span m="33840">a</span> <span m="33900">little</span> <span m="34110">easier</span> <span m="34470">to</span> <span m="34590">write.</span> <span m="35180">This</span> <span m="35340">notation</span> <span m="35780">should</span> <span m="35950">be</span> <span m="36410">familiar</span> <span m="36870">with</span> <span m="37020">things</span> <span m="37230">you</span> <span m="37330">saw</span> <span m="37770">in</span> <span m="37900">the</span> <span m="37990">lecture.</span> <span m="38980">So,</span> <span m="39670">for</span> <span m="39810">two</span> <span m="39970">functions,</span> <span m="40410">let</span> <span m="40530">me</span> <span m="40610">remind</span> <span m="41030">you.</span></p>
+<p><span m="43230">If</span> <span m="43360">u*v,</span> <span m="44680">the</span> <span m="44810">product,</span> <span m="46010">and</span> <span m="46150">you</span> <span m="46240">take</span> <span m="46440">its</span> <span m="46520">derivative,</span> <span m="47180">so</span> <span m="47310">prime</span> <span m="47690">will</span> <span m="47830">denote</span> <span m="48740">d/dx.</span> <span m="50340">Then</span> <span m="50550">we</span> <span m="50660">can</span> <span m="50810">take</span> <span m="51010">the</span> <span m="51090">derivative</span> <span m="51550">of</span> <span m="51680">the</span> <span m="51760">first</span> <span m="52990">times</span> <span m="53340">the</span> <span m="53440">second</span> <span m="54710">function</span> <span m="55180">left</span> <span m="55360">alone,</span> <span m="56120">plus</span> <span m="56510">the</span> <span m="56580">derivative</span> <span m="57090">of</span> <span m="57220">the</span> <span m="57310">second</span> <span m="57640">function</span> <span m="58610">times</span> <span m="58860">the</span> <span m="59000">first</span> <span m="59360">left</span> <span m="59580">alone.</span> <span m="59920">So</span> <span m="60090">this</span> <span m="60250">should</span> <span m="60420">again</span> <span m="60700">be</span> <span m="60810">familiar</span> <span m="61210">from</span> <span m="61410">class.</span> <span m="62770">And</span> <span m="63110">now what</span> <span m="63460">we</span> <span m="63610">want</span> <span m="63800">to</span> <span m="63890">do</span> <span m="64110">is</span> <span m="64340">expand</span> <span m="64900">that</span> <span m="65150">to</span> <span m="66580">the</span> <span m="66710">product</span> <span m="67020">of</span> <span m="67100">three</span> <span m="67310">functions,</span> <span m="67800">u</span> <span m="67940">times</span> <span m="68200">v</span> <span m="68340">times</span> <span m="68580">w.</span> <span m="69300">And</span> <span m="69580">we're</span> <span m="69710">going</span> <span m="69950">to</span> <span m="70090">explicitly</span> <span m="70530">use</span> <span m="70810">this</span> <span m="71000">rule.</span> <span m="71870">So,</span> <span m="74920">u*v*w</span> <span m="76370">prime</span> <span m="76870">is</span> <span m="76990">what</span> <span m="77120">we</span> <span m="77220">want</span> <span m="77380">to</span> <span m="77450">look</span> <span m="77610">at.</span></p>
+<p><span m="78120">So</span> <span m="78470">we're</span> <span m="78640">just</span> <span m="78880">going to</span> <span m="79670">take</span> <span m="79900">advantage</span> <span m="80300">of</span> <span m="80380">what</span> <span m="80550">we</span> <span m="80660">know</span> <span m="81440">to</span> <span m="81580">figure</span> <span m="81900">out</span> <span m="82080">what</span> <span m="82230">this</span> <span m="82710">expression</span> <span m="83290">will</span> <span m="83450">be.</span> <span m="84340">What</span> <span m="84550">this</span> <span m="84720">product</span> <span m="85060">of</span> <span m="85130">three</span> <span m="85310">functions</span> <span m="85780">when</span> <span m="85900">I</span> <span m="85980">take</span> <span m="86250">its</span> <span m="87140">derivative</span> <span m="87570">will</span> <span m="87700">be.</span> <span m="87920">So</span> <span m="88860">in</span> <span m="89010">order</span> <span m="89240">to</span> <span m="89320">do</span> <span m="89480">this</span> <span m="89640">easily,</span> <span m="90020">what we're</span> <span m="90220">going</span> <span m="90390">to</span> <span m="90480">do</span> <span m="90760">is</span> <span m="91340">treat</span> <span m="91730">v</span> <span m="92030">times</span> <span m="92350">w</span> <span m="92980">as</span> <span m="93200">a</span> <span m="93270">single</span> <span m="93640">function. OK?</span> <span m="95280">So</span> <span m="95450">v</span> <span m="95600">times</span> <span m="95800">w</span> <span m="96080">will</span> <span m="96200">be</span> <span m="96330">our</span> <span m="96490">second</span> <span m="96890">function</span> <span m="97860">that</span> <span m="98590">essentially</span> <span m="99070">takes</span> <span m="99340">the</span> <span m="99440">place</span> <span m="99710">of</span> <span m="99800">the</span> <span m="99900">V</span> <span m="100270">up</span> <span m="100470">here.</span></p>
+<p><span m="102370">So</span> <span m="102800">using</span> <span m="103230">the</span> <span m="103310">product</span> <span m="103630">rule</span> <span m="103790">for</span> <span m="103910">two</span> <span m="104120">functions,</span> <span m="104880">what</span> <span m="105030">I</span> <span m="105110">get</span> <span m="106030">when</span> <span m="106230">I</span> <span m="106300">take</span> <span m="106560">this</span> <span m="107150">derivative,</span> <span m="107640">is</span> <span m="107710">I</span> <span m="107840">get</span> <span m="107990">u</span> <span m="108170">prime</span> <span m="109410">times</span> <span m="109660">v*w</span> <span m="111180">plus,</span> <span m="112230">I</span> <span m="112440">take</span> <span m="112710">the</span> <span m="112790">derivative</span> <span m="113150">of</span> <span m="113420">this</span> <span m="113550">second</span> <span m="113940">thing,</span> <span m="114160">which</span> <span m="114380">is</span> <span m="115250">v*w</span> <span m="116650">prime.</span> <span m="118230">And</span> <span m="118440">then</span> <span m="118590">I</span> <span m="118680">leave</span> <span m="118940">u</span> <span m="119190">alone. OK?</span></p>
+<p><span m="120790">We're</span> <span m="121000">not quite</span> <span m="121270">done,</span> <span m="121560">but</span> <span m="121670">you</span> <span m="121780">can</span> <span m="121940">see</span> <span m="122200">now,</span> <span m="122830">again</span> <span m="123390">if</span> <span m="123520">we</span> <span m="123630">compare</span> <span m="124040">to</span> <span m="124100">what's</span> <span m="124280">above,</span> <span m="125150">you</span> <span m="125320">take</span> <span m="125510">the</span> <span m="125590">derivative</span> <span m="125990">of</span> <span m="126080">the</span> <span m="126180">first</span> <span m="126450">function,</span> <span m="127250">you</span> <span m="127400">leave</span> <span m="127560">the</span> <span m="127630">second</span> <span m="127920">function</span> <span m="128230">alone.</span> <span m="128615">You</span> <span m="129000">take</span> <span m="129250">the</span> <span m="129320">derivative of the</span> <span m="129810">second</span> <span m="130190">function,</span> <span m="130890">you</span> <span m="131080">leave</span> <span m="131230">the</span> <span m="131320">first</span> <span m="131580">function</span> <span m="131920">alone.</span> <span m="132890">But</span> <span m="133140">now</span> <span m="133330">again,</span> <span m="133730">what</span> <span m="133890">do</span> <span m="133950">we</span> <span m="134070">do</span> <span m="134200">here?</span> <span m="134540">Well</span> <span m="134880">we</span> <span m="135030">have</span> <span m="135150">a</span> <span m="135220">product</span> <span m="135580">rule</span> <span m="136020">for</span> <span m="136240">two</span> <span m="136380">functions,</span> <span m="136880">so</span> <span m="137050">let's</span> <span m="137260">use</span> <span m="137520">it.</span></p>
+<p><span m="138300">So,</span> <span m="139720">I'll</span> <span m="140180">leave</span> <span m="140500">the</span> <span m="140620">first</span> <span m="140870">thing</span> <span m="140980">alone,</span> <span m="141420">u</span> <span m="141540">prime--</span> <span m="141810">oops,</span> <span m="142080">that</span> <span m="142455">does</span> <span m="142830">not</span> <span m="143160">look</span> <span m="143340">like</span> <span m="143670">a</span> <span m="143770">v--</span> <span m="144940">v*w</span> <span m="147330">plus,</span> <span m="147920">now</span> <span m="148160">let's</span> <span m="148710">expand</span> <span m="149200">this.</span> <span m="150190">Take</span> <span m="150390">the</span> <span m="150480">derivative</span> <span m="150910">of</span> <span m="151050">the</span> <span m="151140">first</span> <span m="151430">function</span> <span m="151750">there.</span> <span m="152050">That's</span> <span m="152260">v</span> <span m="152400">prime.</span> <span m="153230">I</span> <span m="153340">leave</span> <span m="153550">the</span> <span m="153630">w</span> <span m="153980">alone.</span> <span m="155130">Plus</span> <span m="155450">the</span> <span m="155550">derivative</span> <span m="155880">of</span> <span m="156100">the</span> <span m="156200">second</span> <span m="156530">function.</span> <span m="157120">That's</span> <span m="157320">w</span> <span m="157640">prime.</span> <span m="158135">I</span> <span m="158630">leave</span> <span m="158860">the</span> <span m="158960">v</span> <span m="159150">alone.</span> <span m="160310">And</span> <span m="160480">I</span> <span m="160530">keep</span> <span m="160790">the</span> <span m="160890">u</span> <span m="161070">there. OK?</span></p>
+<p><span m="163120">I'm</span> <span m="163290">going to</span> <span m="163500">just</span> <span m="163730">expand</span> <span m="164310">and</span> <span m="164440">write</span> <span m="164630">it</span> <span m="164740">in</span> <span m="164860">a</span> <span m="164910">nice</span> <span m="165150">order,</span> <span m="165410">so</span> <span m="165570">we</span> <span m="165670">can</span> <span m="165820">see</span> <span m="166170">sort</span> <span m="166400">of</span> <span m="166480">exactly</span> <span m="166990">what</span> <span m="167120">happens.</span> <span m="168080">So,</span> <span m="170280">u</span> <span m="170470">prime</span> <span m="171480">v*w</span> <span m="172930">plus</span> <span m="174350">v</span> <span m="174630">prime</span> <span m="175600">u*w</span> <span m="177760">plus</span> <span m="178280">w</span> <span m="178660">prime</span> <span m="179750">u*v.</span> <span m="181460">So</span> <span m="181700">what</span> <span m="181840">you</span> <span m="181930">can</span> <span m="182100">see</span> <span m="182370">here</span> <span m="182800">is,</span> <span m="183160">what</span> <span m="183320">happens?</span> <span m="183750">You</span> <span m="183830">take</span> <span m="183990">the</span> <span m="184060">derivative</span> <span m="184290">of</span> <span m="184400">the</span> <span m="184510">first</span> <span m="184760">function,</span> <span m="185660">you</span> <span m="185820">leave</span> <span m="185980">the</span> <span m="186060">second</span> <span m="186340">and</span> <span m="186450">third</span> <span m="186650">alone.</span> <span m="187620">Then</span> <span m="187780">you</span> <span m="187870">take</span> <span m="188050">the</span> <span m="188140">derivative</span> <span m="188280">of</span> <span m="188500">the</span> <span m="188670">second</span> <span m="189020">function,</span> <span m="189690">you</span> <span m="189900">leave</span> <span m="190070">the</span> <span m="190150">first</span> <span m="190430">and</span> <span m="190550">third</span> <span m="190740">alone.</span> <span m="191590">Then you</span> <span m="191710">take</span> <span m="191870">the</span> <span m="191950">derivative</span> <span m="192190">of</span> <span m="192270">the</span> <span m="192430">third</span> <span m="192670">function,</span> <span m="192995">you</span> <span m="193320">leave</span> <span m="193540">the</span> <span m="193630">first</span> <span m="193840">and</span> <span m="193930">second</span> <span m="194180">alone.</span> <span m="195000">And</span> <span m="195170">you</span> <span m="195550">add</span> <span m="195800">up</span> <span m="196000">those</span> <span m="196220">three</span> <span m="196490">terms.</span></p>
+<p><span m="198110">I</span> <span m="198280">would</span> <span m="198490">imagine</span> <span m="198990">that</span> <span m="199630">at</span> <span m="199890">this</span> <span m="200110">point</span> <span m="200560">you</span> <span m="200760">anticipate</span> <span m="201330">a</span> <span m="201370">pattern.</span> <span m="202040">So</span> <span m="202280">if</span> <span m="202360">I</span> <span m="202450">had</span> <span m="202590">a</span> <span m="202650">fourth</span> <span m="203160">function.</span> <span m="203710">If</span> <span m="203850">I</span> <span m="203950">did</span> <span m="204140">u</span> <span m="204340">times</span> <span m="204620">v</span> <span m="204810">times</span> <span m="205090">w</span> <span m="205500">times</span> <span m="205850">z,</span> <span m="206370">let's</span> <span m="206620">say.</span> <span m="207480">And</span> <span m="207800">I</span> <span m="208130">took</span> <span m="208330">that</span> <span m="208520">derivative</span> <span m="209040">with</span> <span m="209200">respect</span> <span m="209570">to</span> <span m="209660">x.</span> <span m="211250">You</span> <span m="211480">could</span> <span m="211640">probably</span> <span m="212000">anticipate,</span> <span m="212960">you</span> <span m="213160">would</span> <span m="213320">have</span> <span m="214160">four</span> <span m="214520">terms</span> <span m="215140">when</span> <span m="215340">you</span> <span m="215450">added</span> <span m="215730">them</span> <span m="215900">up.</span> <span m="216340">And</span> <span m="216880">that</span> <span m="217140">fourth</span> <span m="217490">term</span> <span m="217800">would</span> <span m="217900">have</span> <span m="218070">to</span> <span m="218190">include</span> <span m="218490">a</span> <span m="218550">derivative</span> <span m="219210">of</span> <span m="219370">the</span> <span m="219480">fourth</span> <span m="219750">function.</span></p>
+<p><span m="221090">So</span> <span m="221400">from</span> <span m="221670">here,</span> <span m="221980">actually</span> <span m="222410">you</span> <span m="222540">can</span> <span m="222730">probably</span> <span m="224140">tell</span> <span m="224370">me</span> <span m="224520">what</span> <span m="224800">the</span> <span m="224910">derivative</span> <span m="225460">of</span> <span m="225610">the</span> <span m="225700">product</span> <span m="226110">of</span> <span m="226200">n</span> <span m="226500">functions</span> <span m="227010">is.</span> <span m="228790">And</span> <span m="228950">you</span> <span m="229040">can</span> <span m="229190">check</span> <span m="229490">it</span> <span m="229650">using</span> <span m="229960">the</span> <span m="230070">same</span> <span m="230310">kind</span> <span m="230490">of</span> <span m="230590">rule.</span> <span m="231340">But</span> <span m="231570">what</span> <span m="231680">we're</span> <span m="231780">going</span> <span m="231960">to</span> <span m="232040">do</span> <span m="232160">at</span> <span m="232260">this</span> <span m="232440">point,</span> <span m="232770">is</span> <span m="232900">we're</span> <span m="233010">going</span> <span m="233190">to</span> <span m="233270">just</span> <span m="233470">make</span> <span m="233610">sure</span> <span m="233850">we</span> <span m="233970">understand</span> <span m="234440">this.</span> <span m="234580">We're</span> <span m="234680">going</span> <span m="234850">to</span> <span m="235050">compute</span> <span m="235380">an</span> <span m="235450">example.</span> <span m="236360">So</span> <span m="236720">since</span> <span m="237030">we</span> <span m="237160">know products-- or we know</span> <span m="239650">derivatives</span> <span m="240330">of</span> <span m="241040">powers</span> <span m="241470">of</span> <span m="241560">x,</span> <span m="241970">and we</span> <span m="242100">know</span> <span m="242240">derivatives</span> <span m="242740">of</span> <span m="242860">the</span> <span m="243590">basic</span> <span m="244000">trig</span> <span m="244200">functions,</span> <span m="244770">we'll</span> <span m="245280">do</span> <span m="245470">a</span> <span m="245550">product</span> <span m="245910">rule</span> <span m="246540">using</span> <span m="246940">those</span> <span m="247140">functions.</span></p>
+<p><span m="247590">So,</span> <span m="248900">let</span> <span m="249010">me</span> <span m="249770">take</span> <span m="249960">an</span> <span m="250030">example.</span> <span m="253970">So</span> <span m="254180">we'll</span> <span m="254370">say,</span> <span m="255630">f</span> <span m="255950">of</span> <span m="256210">x</span> <span m="257700">equals</span> <span m="258280">x</span> <span m="258570">squared</span> <span m="260690">sine</span> <span m="261210">x</span> <span m="263330">cosine</span> <span m="263830">x. OK?</span> <span m="266530">And</span> <span m="266820">I</span> <span m="266910">want</span> <span m="267110">you</span> <span m="267230">to</span> <span m="267310">find</span> <span m="270190">f</span> <span m="270480">prime</span> <span m="270760">of</span> <span m="270870">x.</span> <span m="274230">OK,</span> <span m="274630">I'm</span> <span m="274770">going to</span> <span m="274970">give</span> <span m="275100">you</span> <span m="275220">a</span> <span m="275280">moment</span> <span m="275630">to</span> <span m="275740">do</span> <span m="275910">it.</span> <span m="276480">You</span> <span m="276670">should</span> <span m="276830">probably</span> <span m="277100">pause the</span> <span m="277490">video</span> <span m="277760">here,</span> <span m="278410">make</span> <span m="278630">sure</span> <span m="278780">you</span> <span m="278910">can</span> <span m="279090">do</span> <span m="279230">it,</span> <span m="279440">and</span> <span m="279640">then</span> <span m="280190">you</span> <span m="280440">can,</span> <span m="280840">you</span> <span m="280980">can</span> <span m="281140">restart</span> <span m="281530">the</span> <span m="281610">video</span> <span m="281970">when</span> <span m="282120">you</span> <span m="282210">want</span> <span m="282350">to</span> <span m="282420">check</span> <span m="282620">your</span> <span m="282750">answer.</span></p>
+<p><span m="291510">OK,</span> <span m="291820">so</span> <span m="292490">we</span> <span m="292750">have</span> <span m="293090">a</span> <span m="293190">product</span> <span m="293530">rule</span> <span m="293740">for</span> <span m="293870">three</span> <span m="294160">functions,</span> <span m="294850">we</span> <span m="294950">have</span> <span m="295150">an</span> <span m="295220">example</span> <span m="296030">that</span> <span m="296280">I</span> <span m="296350">asked</span> <span m="296660">you</span> <span m="296750">to</span> <span m="296870">determine</span> <span m="297740">and</span> <span m="299190">gave</span> <span m="299380">you a</span> <span m="299480">moment</span> <span m="299810">to</span> <span m="299900">do</span> <span m="300040">it.</span> <span m="300210">So</span> <span m="300290">now</span> <span m="300520">I</span> <span m="300640">will</span> <span m="300840">actually</span> <span m="301210">work</span> <span m="301430">out</span> <span m="301590">the</span> <span m="301690">example</span> <span m="302830">over</span> <span m="303090">here</span> <span m="303350">to</span> <span m="303490">the</span> <span m="303580">right.</span> <span m="304960">So</span> <span m="305860">I</span> <span m="306020">will</span> <span m="306360">determine</span> <span m="306910">f</span> <span m="307160">prime</span> <span m="307390">of x.</span></p>
+<p><span m="308890">Now</span> <span m="309060">what</span> <span m="309250">are our</span> <span m="309450">three</span> <span m="309690">functions?</span> <span m="310250">Well</span> <span m="310350">we</span> <span m="310460">have</span> <span m="310600">x</span> <span m="310830">squared</span> <span m="311390">is</span> <span m="311540">the</span> <span m="311620">first,</span> <span m="311940">sine</span> <span m="312200">x</span> <span m="312410">is</span> <span m="312540">the</span> <span m="312600">second,</span> <span m="313520">cosine</span> <span m="313740">x</span> <span m="314070">is</span> <span m="314180">the</span> <span m="314290">third.</span> <span m="315000">So</span> <span m="315400">we'll</span> <span m="315600">have</span> <span m="315770">three</span> <span m="315980">terms.</span> <span m="316310">The</span> <span m="316410">first</span> <span m="316710">term</span> <span m="317630">has</span> <span m="317820">to</span> <span m="317910">have</span> <span m="318080">the</span> <span m="318180">derivative</span> <span m="318630">of</span> <span m="318730">the</span> <span m="318860">x</span> <span m="319060">squared.</span> <span m="320270">That's</span> <span m="320450">going to</span> <span m="320620">give</span> <span m="320730">me</span> <span m="320890">a</span> <span m="321100">2x.</span> <span m="322040">And</span> <span m="322180">I</span> <span m="322230">leave</span> <span m="322500">the</span> <span m="322610">other</span> <span m="322800">two</span> <span m="322950">terms</span> <span m="323250">alone.</span> <span m="324190">So</span> <span m="324510">I</span> <span m="324680">have</span> <span m="325063">2x</span> <span m="325830">sine</span> <span m="326170">x</span> <span m="326510">cosine</span> <span m="327000">x</span> <span m="328090">plus--</span> <span m="329650">I</span> <span m="329800">may</span> <span m="329980">want</span> <span m="330130">to</span> <span m="330200">just</span> <span m="330420">write</span> <span m="330620">these</span> <span m="330820">below. OK.</span></p>
+<p><span m="332270">Now</span> <span m="332550">in</span> <span m="332610">the</span> <span m="332690">next</span> <span m="332990">term,</span> <span m="333220">I</span> <span m="333280">should</span> <span m="333440">take</span> <span m="333610">the</span> <span m="333690">derivative</span> <span m="334140">of</span> <span m="334250">the</span> <span m="334340">sine</span> <span m="334660">x.</span> <span m="335570">And</span> <span m="335750">leave</span> <span m="335930">the x</span> <span m="336270">squared</span> <span m="336600">and</span> <span m="336680">the</span> <span m="336760">cosine</span> <span m="337010">x</span> <span m="337300">alone.</span> <span m="338170">The</span> <span m="338430">derivative</span> <span m="338580">of</span> <span m="338680">sine</span> <span m="339010">x</span> <span m="339370">is cosine</span> <span m="339635">x.</span> <span m="340860">So</span> <span m="341190">I'm</span> <span m="341390">actually</span> <span m="341730">going</span> <span m="341960">to</span> <span m="342070">write</span> <span m="342390">this</span> <span m="342680">underneath. So we'll have--</span> <span m="344160">I'm</span> <span m="344500">going to</span> <span m="344840">put</span> <span m="345110">the</span> <span m="345200">plus</span> <span m="345520">underneath</span> <span m="345920">also</span> <span m="346250">so</span> <span m="346460">we</span> <span m="346700">remember</span> <span m="347030">it's</span> <span m="347110">a</span> <span m="347290">sum.</span> <span m="348080">Plus,</span> <span m="349310">so</span> <span m="349550">the</span> <span m="349680">derivative</span> <span m="349930">of</span> <span m="350080">sine x is</span> <span m="350570">cosine</span> <span m="351020">x.</span> <span m="352240">And</span> <span m="352380">then</span> <span m="352490">we</span> <span m="352570">have</span> <span m="352750">a</span> <span m="352800">times</span> <span m="353160">x</span> <span m="353360">squared</span> <span m="354700">times-- oops-- </span> <span m="355710">another</span> <span m="356050">cosine</span> <span m="356520">x,</span> <span m="357210">the</span> <span m="357340">third</span> <span m="357560">function. OK?</span></p>
+<p><span m="361010">And</span> <span m="361160">then</span> <span m="361290">the</span> <span m="361380">third</span> <span m="361720">term,</span> <span m="362540">I</span> <span m="362670">take</span> <span m="362890">the</span> <span m="362960">derivative</span> <span m="363220">of</span> <span m="363340">the</span> <span m="363540">third</span> <span m="363780">function</span> <span m="364370">and</span> <span m="364490">I</span> <span m="364530">leave</span> <span m="364710">the</span> <span m="364790">first</span> <span m="365020">and</span> <span m="365120">second</span> <span m="365380">alone.</span> <span m="366070">The</span> <span m="366180">derivative</span> <span m="366440">of</span> <span m="366650">cosine</span> <span m="367070">x</span> <span m="367490">is</span> <span m="367690">negative</span> <span m="368090">sine</span> <span m="368440">x.</span> <span m="369350">So I</span> <span m="369610">actually</span> <span m="370050">have</span> <span m="370450">a</span> <span m="370850">negative</span> <span m="371320">sine</span> <span m="371670">x</span> <span m="373390">times</span> <span m="373720">x</span> <span m="373930">squared</span> <span m="375080">times</span> <span m="376130">the</span> <span m="376250">sine</span> <span m="376505">x</span> <span m="376760">here.</span></p>
+<p><span m="380650">I</span> <span m="380810">can</span> <span m="380980">do</span> <span m="381110">some</span> <span m="381300">simplifying</span> <span m="381950">if</span> <span m="382070">I</span> <span m="382180">want.</span> <span m="383970">But</span> <span m="384600">maybe,</span> <span m="385210">if</span> <span m="385400">I</span> <span m="385480">were</span> <span m="385620">trying</span> <span m="385870">to</span> <span m="385950">write</span> <span m="386190">this</span> <span m="386700">nicely</span> <span m="387240">for</span> <span m="387390">someone</span> <span m="387760">who</span> <span m="387890">was</span> <span m="388050">reading</span> <span m="388350">mathematics,</span> <span m="388960">I</span> <span m="389040">would</span> <span m="389190">put</span> <span m="389360">all</span> <span m="389590">of</span> <span m="389720">the</span> <span m="390150">polynomials</span> <span m="391020">in</span> <span m="391130">front</span> <span m="391730">and</span> <span m="391990">all</span> <span m="392130">of</span> <span m="392220">the</span> <span m="392290">coefficients</span> <span m="392900">in</span> <span m="393010">front.</span> <span m="393780">So</span> <span m="393960">to</span> <span m="394060">be</span> <span m="394180">very</span> <span m="394430">kind</span> <span m="394790">to</span> <span m="394900">someone,</span> <span m="396080">I</span> <span m="396180">might</span> <span m="396440">write</span> <span m="396690">it</span> <span m="396830">like</span> <span m="397060">this.</span> <span m="400870">And</span> <span m="401040">notice</span> <span m="401400">cosine</span> <span m="401660">x</span> <span m="401920">cosine</span> <span m="402180">x</span> <span m="402640">is</span> <span m="403670">cosine</span> <span m="404160">squared</span> <span m="404630">x.</span> <span m="405660">And</span> <span m="405840">then</span> <span m="406010">minus</span> <span m="407171">x</span> <span m="407560">squared</span> <span m="409450">sine</span> <span m="409900">squared</span> <span m="410290">x.</span></p>
+<p><span m="411840">And</span> <span m="412320">there</span> <span m="412530">are</span> <span m="412640">other</span> <span m="412870">ways,</span> <span m="413160">I</span> <span m="413710">could</span> <span m="413890">rewrite</span> <span m="414300">this</span> <span m="414570">and</span> <span m="415290">using</span> <span m="415600">trig</span> <span m="415800">identities.</span> <span m="416360">But</span> <span m="416510">this</span> <span m="416680">is</span> <span m="416800">a</span> <span m="416860">sufficient</span> <span m="417380">answer</span> <span m="418160">at</span> <span m="418330">this</span> <span m="418510">point.</span> <span m="418820">So</span> <span m="418960">this</span> <span m="419190">is</span> <span m="419300">actually</span> <span m="420950">a</span> <span m="421060">good</span> <span m="421260">way</span> <span m="421420">to</span> <span m="421540">write</span> <span m="421810">the</span> <span m="421890">derivative</span> <span m="422260">of</span> <span m="423160">that</span> <span m="423350">function,</span> <span m="423710">f</span> <span m="423850">of</span> <span m="424325">x.</span> <span m="424800">And</span> <span m="425120">this</span> <span m="425240">is</span> <span m="425350">where we'll stop.</span></p>
+</div>
+        <div id="vid_index" itemprop="description" class="tabContent hide">
+<h2 class="subhead">Free Downloads</h2>
+<h3 class="subsubhead">Video</h3>
+<ul>
+<li>iTunes U (<a href="http://itunes.apple.com/us/podcast/product-rule/id414308064?i=90318984">MP4 - 16MB</a>)</li>
+<li>Internet Archive (<a href="http://www.archive.org/download/MIT18_01SCF10/MIT18_01SCF10Rec_07_300k.mp4">MP4 - 16MB</a>)</li>
+</ul>
+<br>
+<h3 class="subsubhead">Caption</h3>
+<ul>
+<li>English-US (<a href="../../../../../contents/1.-differentiation/part-a-definition-and-basic-rules/session-9-product-rule/product-rule/55ncRlBZstA.srt">SRT</a>)</li>
+</ul>
+</div>
+    
+   </div>  
+
+
+
+      					 
+        <div class="" id="parent-fieldname-bottom_html_area">
+            
+            
+        </div>
+    
+                    </main><!--Course_inner_chip tag close -->
+           		</div>
+<!--Course_wrapper tag close --> 
+            </div>
+<!--left tag close -->
+            <aside id="right">
+                <!--Begin Right Portion -->
+                    <div>
+    
+
+
+
+</div>
+
+                	<div>
+    
+
+
+
+</div>
+
+
+        <div class="" id="parent-fieldname-rsi_top_html_area">
+            
+            
+        </div>
+    
+
+<!-- RSI google ad space-->
+
+
+
+<div id="google_ads">    
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script type="text/javascript">var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];</script>
+    <script type="text/javascript">
+googletag.cmd.push(function() {googletag.defineSlot('/1064917/SCH_VID_INDIV_SLOT_A_DL', [[300, 250], [300, 300], [180, 200], [180, 150], [160, 600]], 'SCH_VID_INDIV_SLOT_A_DL').addService(googletag.pubads());googletag.defineSlot('/1064917/SCH_VID_INDIV_SLOT_B_DL', [[300, 250], [300, 300], [180, 200], [180, 150], [160, 600]], 'SCH_VID_INDIV_SLOT_B_DL').addService(googletag.pubads());googletag.defineSlot('/1064917/SCH_VID_INDIV_SLOT_C_DL', [[300, 250], [300, 300], [180, 200], [180, 150], [160, 600]], 'SCH_VID_INDIV_SLOT_C_DL').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+ googletag.enableServices();
+});</script>
+    <script language="javascript" type="text/javascript">
+googletag.cmd.push(function() {googletag.pubads().set("TYPE","HOUSE");googletag.pubads().set("DEPARTMENT","18");googletag.pubads().set("CRS_BEG2","01");googletag.pubads().set("CRS_END","SC");googletag.pubads().set("SESSION","F");googletag.pubads().set("YEAR","10");})
+</script>
+    
+    <div id="SCH_VID_INDIV_SLOT_A_DL">
+    	<script>googletag.cmd.push(function() { googletag.display('SCH_VID_INDIV_SLOT_A_DL'); });</script>
+    </div>
+    <div id="SCH_VID_INDIV_SLOT_B_DL">
+    	<script>googletag.cmd.push(function() { googletag.display('SCH_VID_INDIV_SLOT_B_DL'); });</script>
+    </div>
+    <div id="SCH_VID_INDIV_SLOT_C_DL">
+    	<script>googletag.cmd.push(function() { googletag.display('SCH_VID_INDIV_SLOT_C_DL'); });</script>
+    </div>
+</div>
+
+<!-- End RSI ads--> 
+
+
+<div>
+    
+
+
+
+</div>
+
+            </aside><!--Right div close -->
+            <div class="clear"></div> 
+        </div>
+<!--grid tag close --> 
+      </div>
+		
+		<footer id="bottom">
+			<div id="grid">
+				
+<div id="portletwrapper-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572" class="portletWrapper kssattr-portlethash-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572">
+<div class="portletStaticText portlet-static-site-footer"><div id="footer">
+<nav aria-label="Footer">     <nav id="foot-c1" class="grid_2 alpha" aria-labelledby="f-find-courses">       <span class="footer" id="f-find-courses" aria-hidden="true">Find Courses</span>
+<ul class="foot-bullet" role="presentation">
+    <li><a href="https://ocw.mit.edu/courses/find-by-topic/">Find by Topic</a></li>
+    <li><a href="https://ocw.mit.edu/courses/find-by-number/">Find by Course Number</a></li>
+    <li><a href="https://ocw.mit.edu/courses/find-by-department/">Find by Department</a></li>
+    <li><a href="https://ocw.mit.edu/courses/new-courses/">New Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/most-visited-courses/">Most Visited Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/ocw-scholar/">OCW Scholar Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/audio-video-courses/">Audio/Video Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/online-textbooks/">Online Textbooks</a></li>
+    <li><a href="https://ocw.mit.edu/courses/instructor-insights/">Instructor Insights</a></li>
+    <li><a href="https://ocw.mit.edu/resources/">Supplemental Resources</a></li>
+    <li><a href="https://ocw.mit.edu/courses/mitx-related-courseware/">MITx &amp; Related OCW Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/mit-open-learning-library/">MIT Open Learning Library</a></li>
+    <li><a href="https://ocw.mit.edu/courses/translated-courses/">Translated Courses</a></li>
+</ul>
+</nav>
+<div id="foot-c2" class="grid_2"><nav aria-labelledby="f-for-educators">         <span id="f-for-educators" class="footer" aria-hidden="true">For Educators</span>
+<ul class="foot-bullet" role="presentation">
+    <li><a href="https://chalk-radio.simplecast.com/">Chalk Radio Podcast</a></li>
+    <li><a href="https://ocw.mit.edu/educator/">OCW Educator Portal </a></li>
+    <li><a href="https://ocw.mit.edu/courses/instructor-insights/">Instructor Insights by Department</a></li>
+    <li><a href="https://openlearning.mit.edu/campus/digital-innovations/" aria-label="External Link: Residential Digital Innovations">Residential Digital Innovations </a></li>
+    <li><a href="https://ocw.mit.edu/high-school/">OCW Highlights for High School</a></li>
+    <li><a href="https://ocw.mit.edu/educator/additional-resources/">Additional Resources</a></li>
+</ul>
+</nav></div>
+<nav class="grid_2" id="foot-c3" aria-labelledby="f-donate">       <span id="f-donate" class="footer" aria-hidden="true">Give Now</span>
+<ul class="foot-bullet" role="presentation">
+    <li><a href="https://ocw.mit.edu/give/">Make a Donation</a></li>
+    <li><a href="https://ocw.mit.edu/give/why-give/">Why Give?</a></li>
+    <li><a href="https://ocw.mit.edu/give/our-supporters/">Our Supporters</a></li>
+    <li><a href="https://ocw.mit.edu/give/other-ways-to-contribute/">Other Ways to Contribute</a></li>
+    <li><a href="https://ocw.mit.edu/support/">Become a Corporate Sponsor</a></li>
+</ul>
+</nav>
+<div class="grid_2" id="foot-c4">
+<nav aria-labelledby="f-about">         <span id="f-about" class="footer" aria-hidden="true">About</span>
+<ul class="foot-bullet" role="presentation">
+    <li><a href="https://ocw.mit.edu/about/">About OpenCourseWare</a></li>
+    <li><a href="https://ocw.mit.edu/about/site-statistics/">Site Statistics</a></li>
+    <li><a href="https://ocw.mit.edu/about/ocw-stories/">OCW Stories</a></li>
+    <li><a href="https://ocw.mit.edu/about/newsletter/">Newsletter</a></li>
+    <li><a href="https://www.ocw-openmatters.org/">Open Matters Blog</a></li>
+</ul>
+</nav><!--about-->       <nav aria-labelledby="f-tools">         <span id="f-tools" class="footer" aria-hidden="true">Tools</span>
+<ul class="foot-bullet" role="presentation">
+    <li><a href="https://ocw.mit.edu/help/">Help &amp; FAQs</a></li>
+    <li><a href="https://ocw.mit.edu/about/contactus">Contact Us</a></li>
+    <li><a href="https://ocw.mit.edu/help/site-map/">Site Map</a></li>
+    <li><a href="../../../../../common/terms/index.htm">Privacy &amp; Terms of Use</a></li>
+    <li><a href="https://ocw.mit.edu/help/rss/">RSS Feeds</a></li>
+</ul>
+</nav><!--tools-->
+</div>
+</nav> <aside style="min-height: 289px;" aria-labelledby="f-our-corporate-supporters" class="grid_4 omega" id="foot-c5">           <span aria-hidden="true" class="footer" id="f-our-corporate-supporters">Our Corporate Supporters</span>           <!-- HOME_CORP_LOGO_1 -->
+<div id="div-gpt-ad-1388181177156-0" class="sponsors_google_ads_even"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-0'); });
+            </script></div>
+<!-- HOME_CORP_LOGO_2 -->
+<div id="div-gpt-ad-1388181177156-1" class="sponsors_google_ads_odd"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-1'); });
+            </script></div>
+<!-- HOME_CORP_LOGO_3 -->
+<div id="div-gpt-ad-1388181177156-2" class="sponsors_google_ads_even"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-2'); });
+            </script></div>
+<!-- HOME_CORP_LOGO_4 -->
+<div id="div-gpt-ad-1388181177156-3" class="sponsors_google_ads_odd"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-3'); });
+            </script></div>
+<!-- HOME_CORP_LOGO_5 -->
+<div id="div-gpt-ad-1388181177156-4" class="sponsors_google_ads_even"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-4'); });
+              </script></div>
+<!-- HOME_CORP_LOGO_6 -->
+<div id="div-gpt-ad-1388181177156-5" class="sponsors_google_ads_odd"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-5'); });
+              </script></div>
+</aside>
+<div class="grid_12 alpha omega" itemprop="publisher" itemscope="" itemtype="http://schema.org/CollegeOrUniversity">
+<h4 class="footer" style="border-top: thin solid #d5c9ba; padding-top: 10px; margin-bottom: 10px;">About <span itemprop="name">MIT OpenCourseWare</span>
+</h4>
+<p style="color: #999; font-size: 1em; line-height: 1.5em; margin-top: 10px;" itemprop="description">MIT OpenCourseWare makes the materials used in the teaching of almost all of MIT's subjects available on the Web, free of charge. With more than 2,400 courses available, OCW is delivering on the promise of open sharing of knowledge. <a href="http://ocw.mit.edu/about/">Learn more »</a></p>
+</div>
+<div id="foot-copy" class="grid_12 alpha omega" style="border-top: none;">
+<a href="http://web.mit.edu"><img src="../../../../../common/images/logo_mit.png" alt="Massachusetts Institute of Technology logo and name." style="width: 195; height: 44;"></a><a href="https://openlearning.mit.edu/"><img src="https://ocw.mit.edu/images/mitol_logo.png" alt="MIT Open Learning logo and name." style="width: 265; height: 50; vertical-align: top; padding-left:30px;"></a><a href="https://www.oeglobal.org/"><img src="https://ocw.mit.edu/images/oeg_logo.gif" alt="Open Education Consortium logo." style="width: 219px; height: 59px; vertical-align: top; padding-left:20px;"></a><a rel="license" itemprop="useRightsUrl" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="../../../../../common/images/cc_by-nc-sa.png" alt="Creative Commons logo with terms BY-NC-SA." style="width: 126px; height: 44px; margin-right: 0; padding-left: 20px;"></a>
+<p class="copyright">© 2001–2018<br>
+Massachusetts Institute of Technology</p>
+<p style="font-size: 0.9em; margin-bottom: 15px;">Your use of the MIT OpenCourseWare site and materials is subject to our <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons License</a> and other <a href="../../../../../common/terms/index.htm" rel="cc:morePermissions">terms of use</a>.</p>
+</div>
+</div></div>
+
+</div>
+
+
+
+
+
+                
+			</div> <!-- bottom grid end -->
+		</footer><!-- footer bottom end -->
+
+
+   </body>
+ </html>
