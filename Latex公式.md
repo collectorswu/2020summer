@@ -78,7 +78,15 @@ $$
 dt, \mathrm{d}t, \partial t, \nabla, \delta, \Delta,\psi
 $$
 
+## 集合
 
+```latex
+\cap， \bigcap， \cup, \bigcup, \in, \notin, \not\in \ni, \not\ni
+```
+
+$$
+\cap, \bigcap, \cup, \bigcup, \in, \notin, \not\in, \ni, \not\ni
+$$
 
 
 
@@ -94,9 +102,71 @@ $$
 \infty,
 $$
 
+## 希腊符号
+
+```latex
+\alpha, \beta, \gamma, \delta, \epsilon, \zeta, \eta, \theta,
+```
+
+$$
+\alpha, \beta, \gamma, \delta, \epsilon, \zeta, \eta, \theta,
+$$
+
+```latex
+\lambda, \mu, \nu, \omicron, \xi, \pi, \rho, \sigma, \tau, 
+```
+
+$$
+\lambda, \mu, \nu, \omicron, \xi, \pi, \rho, \sigma, \tau,
+$$
+
+```latex
+\upsilon, \phi, \chi, \omega,
+```
+
+$$
+\upsilon, \phi, \chi, \omega
+$$
+
+### 部分字母的变量专用形式
+
+```latex
+\varepsilon， \digamma， \varkappa， \varpi，
+```
+
+$$
+\varepsilon， \digamma， \varkappa， \varpi，
+$$
+
+```latex
+\varrho, \varsigma, \vartheta, \varphi,
+```
+
+$$
+\varrho, \varsigma, \vartheta, \varphi,
+$$
+
+## 逻辑符号
+
+```latex
+\forall, \exists, \nexists,\therefore, \because, \And, \or,\and, \lnot
+```
+
+$$
+\forall, \exists, \nexists, ~\therefore~\because~\And, \or, \and, \lnot
+$$
 
 
 
+## 括号
+
+```latex
+\langle, \rangle, 
+```
+
+$$
+\langle, \rangle, 
+$$
 
 
 
