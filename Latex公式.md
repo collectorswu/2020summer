@@ -41,11 +41,11 @@ $$
 ## 分数
 
 ```latex
-\frac{a}{b}
+\frac{a}{b}, \frac{\frac{a}{b}}{c}, \cfrac{\cfrac{a}{b}}{c}
 ```
 
 $$
-\frac{a}{b}, 
+\frac{a}{b},\frac{\frac{a}{b}}{c}, \cfrac{\cfrac{a}{b}}{c}
 $$
 
 ## 极限
@@ -168,6 +168,12 @@ $$
 \langle, \rangle, 
 $$
 
+## 空格
+
+```latex
+\quad, \qquad, ~
+```
+
 
 
 # 排版
@@ -193,5 +199,23 @@ $$
 
 
 
+# 数组与表格
 
+```latex
+\begin{array}{cc|l|c|r|}
+n & n & left & center & right	\\
+\hline
+1 & 1 & ab   & ab	  & ab	\\
+1 & 1 & abcdefgh   & abcdefgh	  & abcdefgh	\\
+\end{array}
+```
+
+$$
+\begin{array}{cc|l|c|r|}
+n & n & left & center & right	\\
+\hline
+1 & 1 & ab   & ab	  & ab	\\
+1 & 1 & abcdefgh   & abcdefgh	  & abcdefgh	\\
+\end{array}
+$$
 
